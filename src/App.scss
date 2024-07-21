@@ -1,0 +1,116 @@
+@import '~bootstrap/scss/bootstrap';
+@import './styles/colors';
+@import './styles/mixins';
+
+/* Global styles */
+body {
+  background-color: $background-color; // Dark Gray
+  color: $secondary-color; // White
+  font-family: 'Raleway', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: $primary-color; // Golden Yellow
+  font-family: 'Montserrat', sans-serif;
+}
+
+a {
+  color: $accent-color; // Bright Orange
+  text-decoration: none;
+  &:hover {
+    color: $primary-color; // Golden Yellow
+  }
+}
+
+button, .btn {
+  background-color: $accent-color; // Bright Orange
+  color: $secondary-color; // White
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  &:hover {
+    background-color: $primary-color; // Golden Yellow
+    color: $background-color; // Dark Gray
+  }
+}
+
+/* Header styles */
+header {
+  background-color: $background-color;
+  color: $secondary-color;
+  height: 100vh;
+  padding: 50px 0;
+  h1 {
+    color: $primary-color;
+  }
+}
+
+/* About styles */
+#about {
+  background-color: $background-color;
+  color: $secondary-color;
+  padding: 50px 0;
+
+  h2 {
+    color: $primary-color;
+    margin-bottom: 20px;
+  }
+}
+
+/* Projects styles */
+#projects {
+  background-color: $background-color;
+  color: $secondary-color;
+  padding: 50px 0;
+
+  h2 {
+    color: $primary-color;
+    margin-bottom: 20px;
+  }
+}
+
+.project {
+  background-color: lighten($background-color, 10%);
+  color: $secondary-color;
+  border: 1px solid $primary-color;
+  padding: 20px;
+  margin-bottom: 20px;
+
+  h3 {
+    color: $primary-color;
+  }
+}
+
+/* Contact styles */
+#contact {
+  background-color: $background-color;
+  color: $secondary-color;
+  padding: 50px 0;
+
+  h2 {
+    color: $primary-color;
+    margin-bottom: 20px;
+  }
+
+  p {
+    a {
+      color: $accent-color;
+      &:hover {
+        color: $primary-color;
+      }
+    }
+  }
+}
+
+/* Footer styles */
+footer {
+  background-color: $background-color;
+  color: $secondary-color;
+  padding: 20px 0;
+
+  p {
+    margin: 0;
+  }
+}
