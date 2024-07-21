@@ -3,11 +3,12 @@ import React from "react";
 
 function Header() {
   return (
-    <header className="bg-dark py-5">
-      <div className="container">
-        <h1 className="text-center text-white">Welcome to My Portfolio</h1>
+    <section className="quote-section bg-dark d-flex justify-content-center align-items-center vh-100">
+      <div className="text-center">
+        <h1 className="text-white"><em>Simplicity</em> is the <br/><span className="underline">Ultimate</span> <strong>Sophistaction</strong></h1>
+        <p>- Leonerdo Da Vinci</p>
       </div>
-    </header>
+    </section>
   );
 }
 

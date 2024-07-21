@@ -1,4 +1,3 @@
-@import '~bootstrap/scss/bootstrap';
 @import './styles/colors';
 @import './styles/mixins';
 
@@ -9,6 +8,7 @@ body {
   font-family: 'Raleway', sans-serif;
   margin: 0;
   padding: 0;
+  overflow-x: hidden;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -36,25 +36,38 @@ button, .btn {
   }
 }
 
+.underline{
+  text-decoration: underline;
+}
+
+/* Section styles to ensure each section takes full viewport height */
+section {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  // transition: background-color 0.3s, color 0.3s;
+}
+
 /* Header styles */
-header {
-  background-color: $background-color;
+.quote-section {
+  // background-color: $background-color;
   color: $secondary-color;
-  height: 100vh;
   padding: 50px 0;
-  h1 {
+
+  h1,
+  p {
     color: $primary-color;
   }
 }
 
 /* About styles */
 #about {
-  background-color: $background-color;
-  color: $secondary-color;
-  padding: 50px 0;
+  // background-color: $secondary-color; // White
+  color: $background-color; // Dark Gray
 
   h2 {
-    color: $primary-color;
+    color: $accent-color; // Bright Orange
     margin-bottom: 20px;
   }
 }
@@ -63,7 +76,6 @@ header {
 #projects {
   background-color: $background-color;
   color: $secondary-color;
-  padding: 50px 0;
 
   h2 {
     color: $primary-color;
@@ -87,7 +99,6 @@ header {
 #contact {
   background-color: $background-color;
   color: $secondary-color;
-  padding: 50px 0;
 
   h2 {
     color: $primary-color;

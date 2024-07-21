@@ -3,12 +3,21 @@ import React from 'react';
 
 function About() {
   return (
-    <section id="about" className="py-5">
-      <div className="container">
-        <h2 className="text-center">About Me</h2>
-        <p className="text-center">I am an aspiring frontend developer with a passion for responsive design and user experience.</p>
+    <section id="about" className="d-flex justify-content-center align-items-center">
+    <div className="container text-center">
+      <div className='row'>
+        <div className='col-6'>
+        <h2>Matthew g. Da Silva</h2>
+        </div>
+        <div className='col-6'>
+        <h2>| Creative Frontend Developer</h2>
+        </div>
       </div>
-    </section>
+      <p>I am an aspiring frontend developer with a passion for responsive design and user experience.</p>
+    </div>
+
+    
+  </section>
   );
 }
 
