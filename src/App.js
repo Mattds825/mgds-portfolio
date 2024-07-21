@@ -5,6 +5,7 @@ import Projects from './components/projects';
 import Contact from './components/contact';
 import Footer from './components/footer';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bulma/css/bulma.min.css';
 import './App.scss';
 
 function App() {
@@ -16,7 +17,7 @@ function App() {
       const windowHeight =  window.innerHeight;
       const scrollPercent = scrollTop / windowHeight;
 
-      const startColor = [34, 34, 34]; // Dark Gray
+      const startColor = [0, 0, 0]; // Dark Gray
       const endColor = [255, 255, 255]; // White
 
       const newColor = startColor.map((start, i) => {

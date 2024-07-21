@@ -3,10 +3,10 @@ import React from "react";
 
 function Header() {
   return (
-    <section className="quote-section bg-dark d-flex justify-content-center align-items-center vh-100">
-      <div className="text-center">
-        <h1 className="text-white"><em>Simplicity</em> is the <br/><span className="underline">Ultimate</span> <strong>Sophistaction</strong></h1>
-        <p>- Leonerdo Da Vinci</p>
+    <section className="quote-section d-flex justify-content-center align-items-center vh-100">
+      <div className="box text-center">
+        <h1 className="title is-1 text-white"><em>Simplicity</em> is the <br/><span className="title-span">Ultimate</span> <strong>Sophistaction</strong></h1>
+        <p className="subtitle is-6 mt-5">- Leonerdo Da Vinci</p>
       </div>
     </section>
   );
