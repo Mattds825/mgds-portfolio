@@ -59,10 +59,44 @@ section {
   }
 }
 
+.orange-box{
+  height: 36px;
+  width: 36px;
+  background-color: $accent-color;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
 .title-span{
   text-decoration: underline;
   color: $primary-color;
 }
+
+.quote-box{
+  background-color: black;
+}
+
+#quote-box-quote-text{
+  color: white;
+}
+
+body:has(.quote-box:hover) #quote-box-quote-text{
+  color: black;
+}
+
+
+
+.quote-box:hover{
+  background-color: white;
+}
+
+// .quote-box:hover #quote-box-quote-text{
+//   background-color: white;
+//   color: black;
+// }
+
+
 
 /* About styles */
 #about {
