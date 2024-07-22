@@ -38,10 +38,10 @@ function About() {
       <div className="container">
         <div className="row">
           <div className="col-6">
-            <h2 className="title is-3">Matthew G. Da Silva</h2>
+            <h2 className="title is-3 animated-text-fade">Matthew G. Da Silva</h2> 
           </div>
           <div className="col-6">
-            <h2 className="subtitle is-4">Creative Frontend Developer</h2>
+            <h2 className="subtitle is-4 animated-text-bounce">Creative Frontend Developer</h2>
           </div>
         </div>
         <div className="row">
@@ -59,7 +59,7 @@ function About() {
             className="col-md-6 text-center align-items-center 
                         justify-content-center mx-auto"
           >
-            <p className="text-start">
+            <p className="text-start ">
               I am an aspiring frontend developer with a passion for responsive
               design and user experience.
             </p>
