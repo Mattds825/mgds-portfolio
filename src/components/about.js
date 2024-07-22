@@ -38,7 +38,7 @@ function About() {
       <div className="container">
         <div className="row">
           <div className="col-6">
-            <h2 className="title is-4">Matthew g. Da Silva</h2>
+            <h2 className="title is-3">Matthew G. Da Silva</h2>
           </div>
           <div className="col-6">
             <h2 className="subtitle is-4">Creative Frontend Developer</h2>
@@ -63,10 +63,11 @@ function About() {
               I am an aspiring frontend developer with a passion for responsive
               design and user experience.
             </p>
+            <a href="#timeline" class="button is-small is-outlined mt-4">Curriculum Vitae</a>
           </div>
         </div>
         <div className="row pt-5">
-          <div className="col-md-4">
+          <div className="col-md-4 py-3">
             <h2 className="subtitle is-5">Currently Working with:</h2>
             <div className="box has-background-info-light has-text-primary-dark">
               <div className="grid is-col-min-3">
@@ -103,7 +104,7 @@ function About() {
               </div>
             </div>
           </div>
-          <div className="col-md-4">
+          <div className="col-md-4 py-3">
             <h2 className="subtitle is-5">Currently Studying:</h2>
             <div className="box has-background-warning-light has-text-primary-dark">
               <div className="grid  is-col-min-3">
@@ -129,13 +130,13 @@ function About() {
                 </div>
                 <div className="cell">
                   <button class="button is-small is-responsive is-warning is-outlined">
-                    Responsive Web Design
+                      Web Design
                   </button>
                 </div>
               </div>
             </div>
           </div>
-          <div className="col-md-4">
+          <div className="col-md-4 py-3">
             <h2 className="subtitle is-5">Experienced in:</h2>
             <div className="box has-background-success-light has-text-primary-dark">
               <div className="grid  is-col-min-3">
@@ -188,7 +189,7 @@ function About() {
             className="col  text-center align-items-center 
                         justify-content-center"
           >
-            <button class="button is-light">My Canon Events</button>
+            <a href="#timeline" class="button is-light">Timeline</a>
           </div>
         </div>
       </div>

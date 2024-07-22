@@ -4,6 +4,7 @@ import About from './components/about';
 import Projects from './components/projects';
 import Contact from './components/contact';
 import Footer from './components/footer';
+import Timeline from './components/timeline'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bulma/css/bulma.min.css';
 import './App.scss';
@@ -38,6 +39,7 @@ function App() {
     <div className="App">
       <Header />
       <About />
+      <Timeline />
       <Projects />
       <Contact />
       <Footer />
