@@ -4,9 +4,9 @@ import Project from './project';
 
 function Projects() {
   return (
-    <section id="projects" className="py-5 bg-light">
+    <section id="projects" className="py-5">
       <div className="container">
-        <h2 className="text-center">Projects</h2>
+        <h2 className="text-center title is-2">Projects</h2>
         <div className="row">
           <div className="col-md-6">
             <Project name="Project 1" description="Description of project 1" />

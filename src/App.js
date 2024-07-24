@@ -5,6 +5,7 @@ import Projects from "./components/projects";
 import Contact from "./components/contact";
 import Footer from "./components/footer";
 import Timeline from "./components/timeline";
+import { AnimationOnScroll } from "react-animation-on-scroll";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bulma/css/bulma.min.css";
 import "animate.css";
@@ -45,8 +46,13 @@ function App() {
 
       if (scrollPercent > 0.8 && scrollPercent < 0.9) {
         if (hasAnimatedScreen == false) {
-          animateCSS(".animated-text-fade", "fadeInLeft");
-          animateCSS(".animated-text-bounce", "bounce");
+          const fadeTexts =
+            document.getElementsByClassName("animated-text-fade");
+          for (let i = 0; i < fadeTexts.length; i++) {
+            // animateCSS(".animated-text-fade", "fadeInLeft");
+          }
+          // animateCSS(".animated-text-fade", "fadeInLeft");
+          // animateCSS(".animated-text-bounce", "bounce");
           // animateCSS(".animated-text-appear", "fadeIn");
           hasAnimatedScreen = true;
         }
@@ -72,8 +78,12 @@ function App() {
   return (
     <div className="App">
       <Header />
-      <About />
-      <Timeline />
+        <About />
+      {/* <AnimationOnScroll animateIn="animate__fadeIn">
+      </AnimationOnScroll> */}
+      <AnimationOnScroll animateIn="animate__fadeIn">
+        <Timeline />
+      </AnimationOnScroll>
       <Projects />
       <Contact />
       <Footer />

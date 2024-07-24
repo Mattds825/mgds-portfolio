@@ -112,7 +112,7 @@ function Timeline() {
           </div>
           <div className="col-12 py-5 text-center align-items-center 
                         justify-content-center">
-          <a href="#timeline" class="button is-light">Projects</a>
+          <a href="#projects" class="button is-light">Projects</a>
           </div>
         </div>
       </div>
