@@ -103,6 +103,10 @@ body:has(#timeline-headline-box:hover) .timeline-highlight-text{
   color: $accent-color;
 }
 
+body:has(.timeline-content:hover) .timeline-highlight-text{
+  color: $accent-color;
+}
+
 /* About styles */
 #about {
   // background-color: $secondary-color; // White
@@ -135,6 +139,12 @@ body:has(#timeline-headline-box:hover) .timeline-highlight-text{
   h3 {
     color: $primary-color;
   }
+}
+
+// Projects Styles
+
+.project-image{
+  object-fit: contain;
 }
 
 /* Contact styles */

@@ -59,8 +59,11 @@ function App() {
       }
 
       const newColor = startColor.map((start, i) => {
-        if (scrollPercent > 1.8) {
-          return 0;
+        if (scrollPercent > 1.7) {
+          // return 0;
+          var newPercentage = 1 - ((scrollPercent - 1.7) / (1.9 - 1.7))
+
+          return Math.round(start + (endColor[i] - start) * newPercentage);
         }
         return Math.round(start + (endColor[i] - start) * scrollPercent);
       });

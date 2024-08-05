@@ -6,7 +6,7 @@ function Contact() {
     <section id="contact" className="py-5">
       <div className="container">
         <h2 className="text-center">Contact Me</h2>
-        <p className="text-center">Email: <a href="mailto:yourname@example.com">yourname@example.com</a></p>
+        <p className="text-center">Email: <a href="mailto:matthewgdasilva25@gmail.com">matthewgdasilva25@gmail.com</a></p>
       </div>
     </section>
   );

@@ -13,7 +13,7 @@ function Header() {
               <span className="title-span">Ultimate</span>{" "}
               <strong>Sophistaction</strong>
             </h1>
-            <p className="subtitle is-6 mt-5">- Leonerdo Da Vinci</p>
+            <p className="subtitle is-6 mt-5">- Leonardo Da Vinci</p>
           </div>
         </div>
         <div

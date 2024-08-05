@@ -1,5 +1,6 @@
 import React from "react";
 import { AnimationOnScroll } from "react-animation-on-scroll";
+import profileImage from '../assets/images/profile-image.jpeg';
 // import './App.scss';
 
 function About() {
@@ -8,34 +9,6 @@ function About() {
       id="about"
       className="d-flex justify-content-center align-items-center"
     >
-      {/* <div className="block">
-        <div className="columns is-multiline is-mobile">
-          <div class="column is-one-third">
-            <h2 className="title is-4">Matthew g. Da Silva</h2>
-          </div>
-          <div class="column is-two-thirds">
-            <h2 className="subtitle is-4">| Creative Frontend Developer</h2>
-          </div>
-        </div>
-        <div className="columns">
-          <div class="column is-one-third">
-            <figure class="image is-128x128">
-              <img
-                class="is-rounded"
-                src="https://bulma.io/assets/images/placeholders/128x128.png"
-              />
-            </figure>
-          </div>
-          <div class="column is-two-thirds">
-          <div className="box">
-              <p className="text-start">
-                I am an aspiring frontend developer with a passion for
-                responsive design and user experience.
-              </p>
-            </div>
-          </div>
-        </div>
-      </div> */}
       <div className="container">
         {/* Name and info */}
         <div className="row">
@@ -56,7 +29,7 @@ function About() {
               <figure class="image is-128x128 is-inline-block-mobile">
                 <img
                   class="is-rounded"
-                  src="https://bulma.io/assets/images/placeholders/128x128.png"
+                  src={profileImage}
                 />
               </figure>
             </div>
@@ -112,6 +85,11 @@ function About() {
                   </div>
                   <div className="cell">
                     <button class="button is-small is-responsive is-info is-outlined">
+                      Next Js
+                    </button>
+                  </div>
+                  <div className="cell">
+                    <button class="button is-small is-responsive is-info is-outlined">
                       Bootsrap
                     </button>
                   </div>
@@ -147,6 +125,21 @@ function About() {
                   <div className="cell">
                     <button class="button is-small is-responsive is-warning is-outlined">
                       Jquery
+                    </button>
+                  </div>
+                  <div className="cell">
+                    <button class="button is-small is-responsive is-warning is-outlined">
+                      Jest
+                    </button>
+                  </div>
+                  <div className="cell">
+                    <button class="button is-small is-responsive is-warning is-outlined">
+                      Mongo DB
+                    </button>
+                  </div>
+                  <div className="cell">
+                    <button class="button is-small is-responsive is-warning is-outlined">
+                      Flask
                     </button>
                   </div>
                   <div className="cell">
