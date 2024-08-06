@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import Header from "./components/header";
 import About from "./components/about";
 import Projects from "./components/projects";
@@ -12,7 +12,17 @@ import "animate.css";
 import "./App.scss";
 
 function App() {
+  const [isLoading, setIsLoading] = useState(true);
+
   useEffect(() => {
+    var loader;
+
+     // Set a timeout for the duration of the GIF (e.g., 3 seconds)
+     const gifDuration = 1500; // Replace with your GIF duration in milliseconds
+     const timeout = setTimeout(() => {
+       setIsLoading(false);
+     }, gifDuration);
+
     const animateCSS = (element, animation, prefix = "animate__") =>
       // We create a Promise and return it
       new Promise((resolve, reject) => {
@@ -61,7 +71,7 @@ function App() {
       const newColor = startColor.map((start, i) => {
         if (scrollPercent > 1.7) {
           // return 0;
-          var newPercentage = 1 - ((scrollPercent - 1.7) / (1.9 - 1.7))
+          var newPercentage = 1 - (scrollPercent - 1.7) / (1.9 - 1.7);
 
           return Math.round(start + (endColor[i] - start) * newPercentage);
         }
@@ -75,21 +85,28 @@ function App() {
 
     return () => {
       window.removeEventListener("scroll", handleScroll);
+      clearTimeout(timeout);
     };
   }, []);
 
   return (
     <div className="App">
-      <Header />
-        <About />
-      {/* <AnimationOnScroll animateIn="animate__fadeIn">
-      </AnimationOnScroll> */}
-      <AnimationOnScroll animateIn="animate__fadeIn">
-        <Timeline />
-      </AnimationOnScroll>
-      <Projects />
-      <Contact />
-      <Footer />
+      {isLoading ? (
+        <div id="loader"></div>
+      ) : (
+        <div id="content">
+          <Header />
+          <About />
+          {/* <AnimationOnScroll animateIn="animate__fadeIn">
+        </AnimationOnScroll> */}
+          <AnimationOnScroll animateIn="animate__fadeIn">
+            <Timeline />
+          </AnimationOnScroll>
+          <Projects />
+          <Contact />
+          <Footer />
+        </div>
+      )}
     </div>
   );
 }
