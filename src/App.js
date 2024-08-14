@@ -99,9 +99,9 @@ function App() {
           <About />
           {/* <AnimationOnScroll animateIn="animate__fadeIn">
         </AnimationOnScroll> */}
-          <AnimationOnScroll animateIn="animate__fadeIn">
+          {/* <AnimationOnScroll animateIn="animate__fadeIn">
             <Timeline />
-          </AnimationOnScroll>
+          </AnimationOnScroll> */}
           <Projects />
           <Contact />
           <Footer />

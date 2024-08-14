@@ -1,6 +1,8 @@
 import React from "react";
 import { AnimationOnScroll } from "react-animation-on-scroll";
 import profileImage from '../assets/images/profile-image.jpeg';
+import cvDoc from '../assets/documents/matthew-cv-2024.pdf'
+import statementDoc from '../assets/documents/matthew-personal-statement-2024.pdf'
 // import './App.scss';
 
 function About() {
@@ -39,11 +41,17 @@ function About() {
                         justify-content-center mx-auto"
           >
             <p className="text-start ">
-              I am an aspiring frontend developer with a passion for responsive
+              I am an aspiring frontend developer with a passion for
               design and user experience.
             </p>
-            <a href="#timeline" class="button is-small is-outlined mt-4">
+            <a href="https://github.com/Mattds825" target="_blank" class="button is-small is-outlined mt-4 m-2">
+              GitHub
+            </a>
+            <a href={cvDoc} target="_blank" class="button is-small is-outlined mt-4 m-2">
               Curriculum Vitae
+            </a>
+            <a href={statementDoc} target="_blank" class="button is-small is-outlined mt-4 m-2">
+              Personal Statement
             </a>
           </div>
         </div>
@@ -58,6 +66,57 @@ function About() {
           <AnimationOnScroll animateIn="animate__fadeIn">
             <h2 className="title is-4">Skills & Technologies</h2>
           </AnimationOnScroll>
+          <div className="col-md-4 py-3">
+            <AnimationOnScroll animateIn="animate__bounce">
+              <div className="box has-background-success-light has-text-primary-dark">
+                <p className="subtitle is-6 has-text-success">
+                  Experienced with:
+                </p>
+                <div className="grid  is-col-min-3">
+                  <div className="cell">
+                    <button class="button is-small is-responsive is-success is-outlined">
+                      App Dev.
+                    </button>
+                  </div>
+                  <div className="cell">
+                    <button class="button is-small is-responsive is-success is-outlined">
+                      Flutter
+                    </button>
+                  </div>
+                  <div className="cell">
+                    <button class="button is-small is-responsive is-success is-outlined">
+                      Dart
+                    </button>
+                  </div>
+                  <div className="cell">
+                    <button class="button is-small is-responsive is-success is-outlined">
+                      Javascript
+                    </button>
+                  </div>
+                  <div className="cell">
+                    <button class="button is-small is-responsive is-success is-outlined">
+                      Java
+                    </button>
+                  </div>
+                  <div className="cell">
+                    <button class="button is-small is-responsive is-success is-outlined">
+                      SQL
+                    </button>
+                  </div>
+                  <div className="cell">
+                    <button class="button is-small is-responsive is-success is-outlined">
+                      mySQL
+                    </button>
+                  </div>
+                  <div className="cell">
+                    <button class="button is-small is-responsive is-success is-outlined">
+                      Firebase
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </AnimationOnScroll>
+          </div>
           <div className="col-md-4 py-3">
             <AnimationOnScroll animateIn="animate__bounce">
               <div className="box has-background-info-light has-text-primary-dark">
@@ -151,57 +210,7 @@ function About() {
               </div>
             </AnimationOnScroll>
           </div>
-          <div className="col-md-4 py-3">
-            <AnimationOnScroll animateIn="animate__bounce">
-              <div className="box has-background-success-light has-text-primary-dark">
-                <p className="subtitle is-6 has-text-success">
-                  Experienced with:
-                </p>
-                <div className="grid  is-col-min-3">
-                  <div className="cell">
-                    <button class="button is-small is-responsive is-success is-outlined">
-                      App Dev.
-                    </button>
-                  </div>
-                  <div className="cell">
-                    <button class="button is-small is-responsive is-success is-outlined">
-                      Flutter
-                    </button>
-                  </div>
-                  <div className="cell">
-                    <button class="button is-small is-responsive is-success is-outlined">
-                      Dart
-                    </button>
-                  </div>
-                  <div className="cell">
-                    <button class="button is-small is-responsive is-success is-outlined">
-                      Javascript
-                    </button>
-                  </div>
-                  <div className="cell">
-                    <button class="button is-small is-responsive is-success is-outlined">
-                      Java
-                    </button>
-                  </div>
-                  <div className="cell">
-                    <button class="button is-small is-responsive is-success is-outlined">
-                      SQL
-                    </button>
-                  </div>
-                  <div className="cell">
-                    <button class="button is-small is-responsive is-success is-outlined">
-                      mySQL
-                    </button>
-                  </div>
-                  <div className="cell">
-                    <button class="button is-small is-responsive is-success is-outlined">
-                      Firebase
-                    </button>
-                  </div>
-                </div>
-              </div>
-            </AnimationOnScroll>
-          </div>
+          
         </div>
         {/* /.Skill And Technology */}
 
@@ -256,9 +265,9 @@ function About() {
             className="col  text-center align-items-center 
                         justify-content-center"
           >
-            <a href="#timeline" class="button is-light mx-2">
+            {/* <a href="#timeline" class="button is-light mx-2">
               Timeline
-            </a>
+            </a> */}
             <a href="#projects" class="button is-light mx-2">
               Projects
             </a>

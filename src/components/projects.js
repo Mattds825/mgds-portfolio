@@ -1,6 +1,9 @@
 import React from "react";
 import Project from "./project";
-import wayneEnterprisesImage from "../assets/images/project-card-images/wayne-enterprises-card-image.jpg"
+import wayneEnterprisesImage from "../assets/images/project-card-images/wayne-enterprises-card-image.jpg";
+import justTypeFastImage from "../assets/images/project-card-images/just-type-fast-screenshot.jpg";
+import keyboardSequencerImg from "../assets/images/project-card-images/keyboard-sequencer-screenshot.jpg"
+import oldPortfolioImage from "../assets/images/project-card-images/old-portfolio-screenshot.jpg";
 // import './App.scss';
 
 function Projects() {
@@ -8,6 +11,7 @@ function Projects() {
     <section id="projects" className="py-5">
       <div className="container">
         <h2 className="text-center title is-2">Projects</h2>
+        <h4 className="text-center subtitle is-6">Some Recent Project I have been working on</h4>
         <div className="row">
           <div className="col-md-6 my-3">
             <Project
@@ -39,22 +43,19 @@ function Projects() {
           </div>
           <div className="col-md-6 my-3">
             <Project
-              name="QuickBreathe"
-              description="Description of project 2"
+              name="JS Keyboard Sequencer"
+              description="A 16step sequencer that you can play with your keybaord"
               links={
                 <span>
                   <a href="#">#css </a>
                   <a href="#">#html </a>
                   <a href="#">#js </a>
-                  <a href="#">#bootsrap </a>
+                  <a href="#">#tone.js </a>
                 </span>
               }
               footerLinks={
                 <>
-                  <a href="#" class="card-footer-item">
-                    More Info
-                  </a>
-                  <a href="#" class="card-footer-item">
+                  <a href="https://github.com/Mattds825/keyboard-step-sequencer" target="_blank" class="card-footer-item">
                     View on Github
                   </a>
                   <a href="#" class="card-footer-item">
@@ -62,33 +63,32 @@ function Projects() {
                   </a>
                 </>
               }
+              projectImage={keyboardSequencerImg}
             />
           </div>
           <div className="col-md-6 my-3">
             <Project
               name="JUSTTYPEFAST"
-              description="Description of project 2"
+              description="An 8-bit arcade style typing test game"
               links={
                 <span>
                   <a href="#">#css </a>
                   <a href="#">#html </a>
                   <a href="#">#js </a>
-                  <a href="#">#bootsrap </a>
+                  <a href="#">#jQuery </a>
                 </span>
               }
               footerLinks={
-                <>
-                  <a href="#" class="card-footer-item">
-                    More Info
-                  </a>
-                  <a href="#" class="card-footer-item">
+                <>                  
+                  <a href="https://github.com/Mattds825/just-type-fast-js-prototype" target="_blank" class="card-footer-item">
                     View on Github
                   </a>
-                  <a href="#" class="card-footer-item">
+                  <a href="https://mattds825.github.io/just-type-fast-js-prototype/" target="_blank" class="card-footer-item">
                     View Live
                   </a>
                 </>
               }
+              projectImage={justTypeFastImage}
             />
           </div>
           <div className="col-md-6 my-3">
@@ -105,17 +105,12 @@ function Projects() {
               }
               footerLinks={
                 <>
-                  <a href="https://github.com/Mattds825/Wayne-Enterprises/blob/main/README.md" class="card-footer-item">
-                    More Info
-                  </a>
-                  <a href="https://github.com/Mattds825/Wayne-Enterprises/tree/main" class="card-footer-item">
-                    View on Github
-                  </a>
-                  <a href="https://mattds825.github.io/Wayne-Enterprises/" class="card-footer-item">
+                  <a href="https://portfolio-5ecbc.web.app/#/" target="_blank" class="card-footer-item">
                     View Live
                   </a>
                 </>
               }
+              projectImage={oldPortfolioImage}
             />
           </div>
         </div>

@@ -10,11 +10,10 @@ function Header() {
         <div className="col-12">
           <div className="quote-box box text-center">
             <h1 id="quote-box-quote-text" className="title is-1">
-              <em>Simplicity</em> is the <br />
-              <span className="title-span">Ultimate</span>{" "}
-              <strong>Sophistaction</strong>
+              <em>Hi I'm Matthew</em><br />
+              I make <span className="title-span">Sofware for Humans</span>{" "}              
             </h1>
-            <p className="subtitle is-6 mt-5">- Leonardo Da Vinci</p>
+            {/* <p className="subtitle is-6 mt-5">- Leonardo Da Vinci</p> */}
           </div>
         </div>
         <div
