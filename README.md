@@ -2,4 +2,4 @@
 
 ### Credits
 
--> timeline code template from ![bestjquery.com](https://bestjquery.com/tutorial/timeline/demo145/)
+-> timeline code template from [bestjquery.com](https://bestjquery.com/tutorial/timeline/demo145/)
