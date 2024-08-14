@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/mgds-portfolio/static/css/main.264c9cd3.css",
+    "main.js": "/mgds-portfolio/static/js/main.f1f26349.js",
+    "static/js/453.f92b1d3e.chunk.js": "/mgds-portfolio/static/js/453.f92b1d3e.chunk.js",
+    "static/media/mdgs-wink-white.gif": "/mgds-portfolio/static/media/mdgs-wink-white.8c1a57a5b57b9ecd27fa.gif",
+    "static/media/wayne-enterprises-card-image.jpg": "/mgds-portfolio/static/media/wayne-enterprises-card-image.17b4ad03e8425ca1c16c.jpg",
+    "static/media/profile-image.jpeg": "/mgds-portfolio/static/media/profile-image.5c85a240d2c711fadd96.jpeg",
+    "index.html": "/mgds-portfolio/index.html",
+    "main.264c9cd3.css.map": "/mgds-portfolio/static/css/main.264c9cd3.css.map",
+    "main.f1f26349.js.map": "/mgds-portfolio/static/js/main.f1f26349.js.map",
+    "453.f92b1d3e.chunk.js.map": "/mgds-portfolio/static/js/453.f92b1d3e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.264c9cd3.css",
+    "static/js/main.f1f26349.js"
+  ]
+}
