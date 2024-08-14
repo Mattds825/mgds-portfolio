@@ -97,10 +97,8 @@ function Projects() {
               description="View my old portfolio with some legacy projects"
               links={
                 <span>
-                  <a href="#">#css </a>
-                  <a href="#">#html </a>
-                  <a href="#">#js </a>
-                  <a href="#">#bootsrap </a>
+                  <a href="#">#flutter </a>
+                  <a href="#">#dart </a>
                 </span>
               }
               footerLinks={
