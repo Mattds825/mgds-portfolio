@@ -1,6 +1,7 @@
 {
   "name": "mgds-portfolio",
   "version": "0.1.0",
+  "homepage": "https://mattds825.github.io/mgds-portfolio/",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
@@ -9,6 +10,7 @@
     "animate.css": "^4.1.1",
     "bootstrap": "^5.3.3",
     "bulma": "^1.0.1",
+    "gh-pages": "^6.1.1",
     "react": "^18.3.1",
     "react-animation-on-scroll": "^5.1.0",
     "react-bootstrap": "^2.10.4",
@@ -19,6 +21,8 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
