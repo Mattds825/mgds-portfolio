@@ -1,7 +1,7 @@
 import React from "react";
 import { AnimationOnScroll } from "react-animation-on-scroll";
 import profileImage from '../assets/images/profile-image.jpeg';
-import cvDoc from '../assets/documents/matthew-cv-2024.pdf'
+import cvDoc from '../assets/documents/matthewgdasilva_cv_2025.pdf';
 import statementDoc from '../assets/documents/matthew-personal-statement-2024.pdf'
 // import './App.scss';
 
@@ -21,7 +21,7 @@ function About() {
           </div>
           <div className="col-6">
             <AnimationOnScroll animateIn="animate__bounce">
-              <h2 className="subtitle is-4">Creative Frontend Developer</h2>
+              <h2 className="subtitle is-4">Creative Software Developer</h2>
             </AnimationOnScroll>
           </div>
         </div>
@@ -41,7 +41,7 @@ function About() {
                         justify-content-center mx-auto"
           >
             <p className="text-start ">
-              I am an aspiring frontend developer with a passion for
+              I am a creative developer with a passion for
               design and user experience.
             </p>
             <a href="https://github.com/Mattds825" target="_blank" class="button is-small is-outlined mt-4 m-2">
@@ -95,6 +95,21 @@ function About() {
                   </div>
                   <div className="cell">
                     <button class="button is-small is-responsive is-success is-outlined">
+                      HTML
+                    </button>
+                  </div>
+                  <div className="cell">
+                    <button class="button is-small is-responsive is-success is-outlined">
+                      CSS
+                    </button>
+                  </div>
+                  <div className="cell">
+                    <button class="button is-small is-responsive is-success is-outlined">
+                      Bootstrap
+                    </button>
+                  </div>
+                  <div className="cell">
+                    <button class="button is-small is-responsive is-success is-outlined">
                       Java
                     </button>
                   </div>
@@ -113,6 +128,11 @@ function About() {
                       Firebase
                     </button>
                   </div>
+                  <div className="cell">
+                    <button class="button is-small is-responsive is-success is-outlined">
+                      Django
+                    </button>
+                  </div>                 
                 </div>
               </div>
             </AnimationOnScroll>
@@ -121,22 +141,7 @@ function About() {
             <AnimationOnScroll animateIn="animate__bounce">
               <div className="box has-background-info-light has-text-primary-dark">
                 <p className="subtitle is-6 has-text-info">Working On:</p>
-                <div className="grid is-col-min-3">
-                  <div className="cell">
-                    <button class="button is-small is-responsive is-info is-outlined">
-                      HTML
-                    </button>
-                  </div>
-                  <div className="cell">
-                    <button class="button is-small is-responsive is-info is-outlined">
-                      SCSS
-                    </button>
-                  </div>
-                  <div className="cell">
-                    <button class="button is-small is-responsive is-info is-outlined">
-                      Javascript
-                    </button>
-                  </div>
+                <div className="grid is-col-min-3">              
                   <div className="cell">
                     <button class="button is-small is-responsive is-info is-outlined">
                       React Js
@@ -149,12 +154,12 @@ function About() {
                   </div>
                   <div className="cell">
                     <button class="button is-small is-responsive is-info is-outlined">
-                      Bootsrap
+                      Node Js
                     </button>
                   </div>
                   <div className="cell">
                     <button class="button is-small is-responsive is-info is-outlined">
-                      Bulma
+                      Graphic Design 
                     </button>
                   </div>
                 </div>
@@ -168,39 +173,9 @@ function About() {
                 <div className="grid  is-col-min-3">
                   <div className="cell">
                     <button class="button is-small is-responsive is-warning is-outlined">
-                      Flask
+                      After Effects
                     </button>
-                  </div>
-                  <div className="cell">
-                    <button class="button is-small is-responsive is-warning is-outlined">
-                      Django
-                    </button>
-                  </div>
-                  <div className="cell">
-                    <button class="button is-small is-responsive is-warning is-outlined">
-                      Noje.js
-                    </button>
-                  </div>
-                  <div className="cell">
-                    <button class="button is-small is-responsive is-warning is-outlined">
-                      Jquery
-                    </button>
-                  </div>
-                  <div className="cell">
-                    <button class="button is-small is-responsive is-warning is-outlined">
-                      Jest
-                    </button>
-                  </div>
-                  <div className="cell">
-                    <button class="button is-small is-responsive is-warning is-outlined">
-                      Mongo DB
-                    </button>
-                  </div>
-                  <div className="cell">
-                    <button class="button is-small is-responsive is-warning is-outlined">
-                      Flask
-                    </button>
-                  </div>
+                  </div>                                                
                   <div className="cell">
                     <button class="button is-small is-responsive is-warning is-outlined">
                       Web Design
@@ -240,7 +215,7 @@ function About() {
                   </div>
                   <div className="cell">
                     <button class="button is-small is-responsive is-link is-outlined">
-                      Video Editing
+                      Graphic Design
                     </button>
                   </div>
                   <div className="cell">

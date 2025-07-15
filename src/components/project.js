@@ -6,7 +6,7 @@ function Project({ name, description, links, footerLinks, projectImage }) {
     <div class="card">
       <div class="card-image">
         <figure class="image is-3by2">
-          <img className="prject-image"
+          <img className="project-image"
             src={projectImage}
             alt={name+" Devices Images"}
           />
